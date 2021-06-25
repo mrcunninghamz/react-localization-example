@@ -1,0 +1,22 @@
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr">
+  <file id="translation">
+    <unit id="welcome">
+        <segment>
+            <source>Welcome to React and react-i18nex</source>
+            <target>Bienvenue à React et react-i18nex</target>
+        </segment>
+    </unit>
+    <unit id="edit">
+        <segment>
+            <source>Edit &lt;1&gt;src/App.js&lt;/1&gt;and save to reload.</source>
+            <target>Modifier &lt;1&gt;src/App.js&lt;/1&gt; et enregistrer pour recharger.</target>
+        </segment>
+    </unit>
+    <unit id="learn">
+        <segment>
+            <source>Learn React</source>
+            <target>Apprendre Réagir</target>
+        </segment>
+    </unit>
+  </file>
+</xliff>

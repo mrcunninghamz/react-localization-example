@@ -9,7 +9,6 @@ const lngs = {
 
 function App() {
   const { t, i18n } = useTranslation();
-
   return (
     <div className="App">
       <header className="App-header">
@@ -22,10 +21,10 @@ function App() {
           ))}
         </div>
         <p>
-         {t('home.welcome')}
+         {t('welcome')}
          </p>
          <p>
-         <Trans i18nKey="home.edit">
+         <Trans i18nKey="edit">
             Edit <code>src/App.js</code> and save to reload.
           </Trans>
         </p>
@@ -35,7 +34,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        {t('home.learn')}
+        {t('learn')}
         </a>
       </header>
     </div>
