@@ -21,10 +21,10 @@ function App() {
           ))}
         </div>
         <p>
-         {t('welcome')}
+         {t('home.welcome')}
          </p>
          <p>
-         <Trans i18nKey="edit">
+         <Trans i18nKey="home.edit">
             Edit <code>src/App.js</code> and save to reload.
           </Trans>
         </p>
@@ -34,7 +34,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        {t('learn')}
+        {t('home.learn')}
         </a>
       </header>
     </div>
