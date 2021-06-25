@@ -22,7 +22,7 @@ function App() {
           ))}
         </div>
         <p>
-         {t('home.welcome')}
+         {t('home.welcome', 'Welcome to React and react-i18nex')}
          </p>
          <p>
          <Trans i18nKey="home.edit">
@@ -35,7 +35,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        {t('home.learn')}
+        {t('home.learn', 'Learn React')}
         </a>
       </header>
     </div>
